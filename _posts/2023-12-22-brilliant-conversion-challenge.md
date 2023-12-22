@@ -1,12 +1,13 @@
 ---
 title: Brilliant Conversion Challenge
-date: 2023-12-22 21:33:00 +0000
+date: 2023-12-22 21:33:00 +0900
 categories: [Brilliant, Programming]
 tags: [brilliant, programming, python, rust, r]
 ---
 
 
-> "Those who know nothing of foreign languages know nothing of their own." - Johann Wolfgang von Goethe
+> "Those who know nothing of foreign languages know nothing of their own."  
+>> Johann Wolfgang von Goethe
 
 
 
