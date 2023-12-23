@@ -1,8 +1,8 @@
 ---
 title: Humming Bird - Compiling traditional ML models to Tensor
 date: 2023-12-23 23:41:00 +0900
-categories: [Algorithm]
-tags: [algorithm]
+categories: [Machine Learning]
+tags: [machine learning]
 math: true
 image: /assets/img/previews/2023-12-23-humming-bird.png
 ---
