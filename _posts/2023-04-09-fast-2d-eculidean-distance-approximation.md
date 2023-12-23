@@ -1,8 +1,8 @@
 ---
 title: Fast 2D Euclidean Distance Approximation
 date: 2023-04-09 16:10:00 +0900
-categories: [Algorithm]
-tags: [algorithm]
+categories: [Algorithm, Mathmatics]
+tags: [algorithm, mathmatics]
 math: true
 image: /assets/img/previews/2023-04-09-fast-2d-eculidean-distance-approximation.png
 ---
