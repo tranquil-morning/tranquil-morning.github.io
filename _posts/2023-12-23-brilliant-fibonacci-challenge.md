@@ -4,6 +4,9 @@ date: 2023-12-23 11:03:00 +0900
 categories: [Brilliant, Programming]
 tags: [brilliant, programming, python, rust, r]
 math: true
+image:
+  path: /assets/img/previews/2023-12-23-brilliant-fibonacci-challenge.png
+  alt: visualizations of the Fibonacci sequence
 ---
 
 >"숫자는 삶을 가지고 있다. 그들은 종이 위의 상징물이 아니다."
