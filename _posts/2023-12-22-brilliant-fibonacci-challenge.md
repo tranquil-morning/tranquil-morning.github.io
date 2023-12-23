@@ -6,12 +6,12 @@ tags: [brilliant, programming, python, rust, r]
 math: true
 ---
 
->"Numbers have life; they're not just symbols on paper."
->> Shakuntala Devi
+>"숫자는 삶을 가지고 있다. 그들은 종이 위의 상징물이 아니다."
+>> 샤쿤탈라 데비
 
-## Fibonacci Sequence
+## 피보나치 수열
 
-The Fibonacci sequence is a series of numbers where a number is the sum of the two numbers before it. Starting with 0 and 1, the sequence goes 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, and so forth. Written as a rule, the expression is $x_n = x_{n-1} + x_{n-2}$.
+피보나치 수열은 한 숫자가 그 앞에 있는 두 숫자의 합이 되는 일련의 숫자입니다. 0과 1로 시작하는 수열은 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 등의 순서로 진행됩니다. 일반적으로 $x_n = x_{n-1} + x_{n-2}$로 표현됩니다.
 
 ## Challenge
 

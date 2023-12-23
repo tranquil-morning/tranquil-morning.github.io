@@ -6,8 +6,8 @@ tags: [brilliant, programming, python, rust, r]
 ---
 
 
-> "Those who know nothing of foreign languages know nothing of their own."  
->> Johann Wolfgang von Goethe
+> "외국어를 모르는 사람은 자신의 언어도 모른다."
+>> 요한 볼프강 폰 괴테
 
 
 
