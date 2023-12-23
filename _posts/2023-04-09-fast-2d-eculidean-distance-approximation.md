@@ -4,6 +4,7 @@ date: 2023-04-09 16:10:00 +0900
 categories: [Algorithm]
 tags: [algorithm]
 math: true
+image: /assets/img/previews/2023-04-09-fast-2d-eculidean-distance-approximation.png
 ---
 
 > "잘못된 방향으로 가고 있다면 속도는 중요치 않다."
@@ -20,7 +21,7 @@ Alpha max plus Beta min 알고리즘은 두 제곱의 합의 제곱근을 고속
 
 알파 맥스 플러스 베타 민 알고리즘은 다음과 같이 표현할 수 있습니다:
 
-$\sqrt(A^2 + B^2) \approx \alpha max(A, B) + \beta min(A, B)$
+$\sqrt{(A^2 + B^2)} \approx \alpha max(A, B) + \beta min(A, B)$
 
 여기서 A와 B는 주어진 두 수이고, max(A, B)는 A와 B 중 큰 값을 나타내며, min(A, B)는 작은 값을 나타냅니다. α와 β는 근사치를 최적화하는 선택된 매개변수입니다.
 
