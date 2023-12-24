@@ -1,8 +1,8 @@
 ---
 title: Principal Component Analysis
 date: 2023-04-13 21:40:00 +0900
-categories: [Machine Learning,Demension Reduction,Algorithm]
-tags: [machine learning,demension reduction,algorithm]
+categories: [Machine Learning,Demension Reduction]
+tags: [machine learning,demension reduction]
 math: true
 image: /assets/img/previews/2023-04-13-principal-component-analysis.png
 ---
