@@ -7,6 +7,8 @@ math: true
 image: /assets/img/previews/2023-12-24-voyager-fast-knn.png
 ---
 
+> "하늘이 우리를 부른다. 우리가 스스로를 파괴하지 않는다면, 언젠가 별들 사이로 모험을 떠날 것이다."
+>> 칼 세이건
 
 ## Voyager - Fast KNN
 
