@@ -1,6 +1,6 @@
 ---
 title: Voyager - Fast KNN
-date: 2023-12-23 13:40:00 +0900
+date: 2023-12-24 13:40:00 +0900
 categories: [Machine Learning, KNN, Algorithm]
 tags: [machine learning, knn, algorithm]
 math: true
