@@ -3,7 +3,6 @@ title: Basic Usage of Hugging Face
 date: 2023-12-24 20:40:00 +0900
 categories: [Machine Learning, Deep Learning, Transformer],
 tags: [machine learning, deep learning, transformer]
-math: true
 image: /assets/img/previews/2023-12-24-basic-usage-of-hugging-face.png
 ---
 
