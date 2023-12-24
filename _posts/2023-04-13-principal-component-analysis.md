@@ -7,11 +7,11 @@ math: true
 image: /assets/img/previews/2023-04-13-principal-component-analysis.png
 ---
 
+> "단순한 것이 가장 세련되다."
+>> 레오나르도 다 빈치
+
+
 ## PCA(Principal Component Analysis)
-
-
-
-
 
 주성분 분석(PCA, Principal Component Analysis)은 고차원의 데이터를 저차원의 데이터로 축소하거나 변환하는 데 사용되는 통계적 기법입니다. 이 방법은 데이터의 분산(variance)을 최대한 보존하면서 데이터를 새로운 좌표계로 변환합니다. PCA는 다음과 같은 과정을 거칩니다.
 
