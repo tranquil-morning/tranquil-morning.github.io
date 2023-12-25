@@ -55,7 +55,11 @@ import librosa.display
 plt.figure().set_figwidth(12)
 librosa.display.waveshow(array, sr=sampling_rate)
 ```
-![](/assets/audio/sorohanro_-_solo-trumpet-06.ogg)
+
+<audio controls>
+<source src="/assets/audio/sorohanro_-_solo-trumpet-06" type="audio/ogg">
+</audio>
+
 
 ![](/assets/img/previews/2023-12-25-introduction-to-audio-data.png)
 
