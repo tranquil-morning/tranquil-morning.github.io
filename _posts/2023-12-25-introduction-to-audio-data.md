@@ -56,11 +56,6 @@ plt.figure().set_figwidth(12)
 librosa.display.waveshow(array, sr=sampling_rate)
 ```
 
-<audio controls>
-<source src="/assets/audio/sorohanro_-_solo-trumpet-06" type="audio/ogg">
-</audio>
-
-
 ![](/assets/img/previews/2023-12-25-introduction-to-audio-data.png)
 
 이 그래프는 y축에 신호의 진폭을, x축에 시간을 표시합니다. 즉, 각 점은 이 사운드를 샘플링할 때 채취한 단일 샘플 값에 해당합니다.
@@ -115,7 +110,41 @@ waveform이 시간에 따른 오디오 신호의 진폭을 표시하는 반면, 
 
 
 
-### Spectrogram
+### Spectrogram & Mel spectrogram
 
-### Mel spectrogram
+Frequency Spectrum는 오디오 신호의 진폭을 시간에 따라 표시하지 않으므로, 오디오 신호의 진폭을 시간에 따라 표시하는 방법이 필요합니다. 이를 위해 _spectrogram_ 이라는 것을 사용합니다.
+
+```python
+import numpy as np
+
+D = librosa.stft(array)
+S_db = librosa.amplitude_to_db(np.abs(D), ref=np.max)
+
+plt.figure().set_figwidth(12)
+librosa.display.specshow(S_db, x_axis="time", y_axis="hz")
+plt.colorbar()
+```
+
+![](/assets/img/2023-12-25-introduction-to-audio-data_plot_3.png)
+
+이 그림에서 X축은 파형 시각화에서와 같이 시간을 나타내지만, 이제 Y축은 주파수(Hz)를 나타냅니다. 색상의 강도는 각 시점의 주파수 성분의 진폭 또는 파워를 데시벨(dB) 단위로 측정한 값입니다.
+
+spectrogram은 일반적으로 수 밀리초 동안 지속되는 오디오 신호의 짧은 세그먼트를 가져와서 각 세그먼트의 이산 푸리에 변환을 계산하여 frequency spectrum을 얻음으로써 만들어집니다. 그런 다음 결과 스펙트럼을 시간 축에 함께 쌓아 spectrogram을 만듭니다.
+
+spectrogram은 시각화에만 사용되는 것이 아닙니다. 많은 머신 러닝 모델은 파형이 아닌 spectrogram을 입력으로 받아 spectrogram을 출력으로 생성합니다.
+
+이제 spectrogram이 무엇이고 어떻게 만들어지는지 알았으니, 음성 처리에 널리 사용되는 spectrogram의 변형인 Mel spectrogram에 대해 살펴보겠습니다.
+
+Mel spectrogram은 spectrogram과 동일한 방식으로 생성되지만, 주파수 축이 선형적이지 않고 멜 스케일로 표시됩니다. 멜 스케일은 사람의 청각 시스템이 주파수를 인식하는 방식을 모델링한 것입니다. 멜 스케일에서는 주파수가 높아질수록 간격이 커집니다. 이는 사람이 높은 주파수를 구별하는 데 더 많은 노력이 필요하다는 것을 반영합니다.
+
+```python
+S = librosa.feature.melspectrogram(y=array, sr=sampling_rate, n_mels=128, fmax=8000)
+S_dB = librosa.power_to_db(S, ref=np.max)
+
+plt.figure().set_figwidth(12)
+librosa.display.specshow(S_dB, x_axis="time", y_axis="mel", sr=sampling_rate, fmax=8000)
+plt.colorbar()
+```
+![](/assets/img/2023-12-25-introduction-to-audio-data_plot_4.png)
+
 
