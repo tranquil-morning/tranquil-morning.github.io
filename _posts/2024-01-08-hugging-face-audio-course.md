@@ -1,6 +1,6 @@
 ---
 title: Finishing Hugging Face's Audio Course
-date: 2023-01-08 23:00:00 +0900
+date: 2024-01-08 23:00:00 +0900
 categories: [Machine Learning, Hugging Face, Deep Learning, Audio]
 tags: [machine learning, hugging face, deep learning, audio]
 math: true
